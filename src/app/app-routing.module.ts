@@ -25,6 +25,10 @@ const routes: Routes = [
     path: 'ion-avatar',
     loadChildren: () => import('./pages/ion-avatar/ion-avatar.module').then( m => m.IonAvatarPageModule)
   },
+  {
+    path: 'ion-button',
+    loadChildren: () => import('./pages/ion-button/ion-button.module').then( m => m.IonButtonPageModule)
+  },
 
   
   ];
